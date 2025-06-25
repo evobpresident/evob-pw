@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EVOB | সদস্য ফর্ম</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f3f9ff;
+      padding: 20px;
+      color: #003366;
+    }
+    h1 {
+      text-align: center;
+      color: #0055a5;
+    }
+    form {
+      max-width: 600px;
+      margin: auto;
+      background: #fff;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #0055a5;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #003f7d;
+    }
+  </style>
+</head>
+<body>
+
+<h1>সদস্য আবেদন ফর্ম</h1>
+
+<form action="https://formspree.io/f/your-form-id" method="POST">
+  <label>পুরো নাম</label>
+  <input type="text" name="name" required />
+
+  <label>ইমেইল</label>
+  <input type="email" name="email" required />
+
+  <label>ফোন নম্বর</label>
+  <input type="text" name="phone" required />
+
+  <label>বিভাগ</label>
+  <select name="division" required>
+    <option value="">বেছে নিন</option>
+    <option value="Dhaka">ঢাকা</option>
+    <option value="Chittagong">চট্টগ্রাম</option>
+    <option value="Sylhet">সিলেট</option>
+    <option value="Khulna">খুলনা</option>
+    <option value="Barisal">বরিশাল</option>
+    <option value="Rajshahi">রাজশাহী</option>
+    <option value="Mymensingh">ময়মনসিংহ</option>
+    <option value="Rangpur">রংপুর</option>
+  </select>
+
+  <label>আপনার বার্তা / আগ্রহ</label>
+  <textarea name="message"></textarea>
+
+  <button type="submit">জমা দিন</button>
+</form>
+
+</body>
+</html>
