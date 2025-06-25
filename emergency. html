@@ -1,0 +1,23 @@
+<!-- emergency.html -->
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EVOB | জরুরি সহায়তা</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>জরুরি সহায়তা</h1>
+  <p>রক্তের জন্য অনুরোধ করতে, নিম্নলিখিত ফর্ম পূরণ করুন:</p>
+  <form action="#">
+    <label>রোগীর নাম</label>
+    <input type="text" required />
+    <label>রক্তের গ্রুপ</label>
+    <input type="text" required />
+    <label>হাসপাতালের ঠিকানা</label>
+    <input type="text" required />
+    <button type="submit">জমা দিন</button>
+  </form>
+</body>
+</html>
