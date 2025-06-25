@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EVOB | পরিচিতি ও কেন্দ্রীয় কমিটি</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f8ff;
+      margin: 0;
+      padding: 20px;
+      color: #003366;
+    }
+    h1, h2 {
+      text-align: center;
+      color: #0055a5;
+    }
+    .section {
+      max-width: 750px;
+      margin: 30px auto;
+      padding: 25px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .member {
+      margin-bottom: 10px;
+      padding: 8px;
+      border-bottom: 1px solid #ddd;
+    }
+    .role {
+      font-weight: bold;
+      color: #0077cc;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Enlightened Volunteers Organization of Bangladesh (EVOB)</h1>
+
+  <div class="section">
+    <h2>সংগঠনের পরিচিতি</h2>
+    <p>
+      "Enlightened Volunteers Organization of Bangladesh (EVOB)" একটি অরাজনৈতিক, মানবিক ও স্বেচ্ছাসেবী যুব সংগঠন, যার লক্ষ্য সারা বাংলাদেশব্যাপী মানবিক উন্নয়নে তরুণদের সম্পৃক্ত করা। এই সংগঠন মানবাধিকার, দুর্যোগ সহায়তা, শিক্ষা, স্বাস্থ্য, প্রযুক্তি ও সমাজসেবামূলক বিভিন্ন কার্যক্রমে নিয়োজিত।  
+    </p>
+    <p>
+      EVOB বিশ্বাস করে: “পরিবর্তনে প্রতিশ্রুতিবদ্ধ” — এবং এই মূল্যবোধকে ধারণ করে দেশব্যাপী হাজারো তরুণের অংশগ্রহণে গঠিত হয়েছে একটি উদ্ভাসিত স্বেচ্ছাসেবক পরিবার।
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>কেন্দ্রীয় নির্বাহী কমিটি</h2>
+    <div class="member"><span class="role">সভাপতি:</span> শাহরিয়ার হক নাবিল</div>
+    <div class="member"><span class="role">সহ-সভাপতি:</span> মুস্তাকিম খান রুহান</div>
+    <div class="member"><span class="role">সাধারণ সম্পাদক:</span> নাছিফ আজিজ চৌধুরী</div>
+    <div class="member"><span class="role">কোষাধ্যক্ষ:</span> সামসুজ্জামান</div>
+    <div class="member"><span class="role">সাংগঠনিক সম্পাদক:</span> জুবায়ের আহমদ</div>
+    <div class="member"><span class="role">প্রকল্প বিষয়ক সম্পাদক:</span> অয়ন বনিক</div>
+    <div class="member"><span class="role">আইসিটি সম্পাদক:</span> অনন্যা কবির রাহী</div>
+    <div class="member"><span class="role">দপ্তর সম্পাদক:</span> আবু সাইদ</div>
+    <div class="member"><span class="role">প্রচার সম্পাদক:</span> তাহসিন আহমদ রিফাত</div>
+    <div class="member"><span class="role">মহিলা বিষয়ক সম্পাদক:</span> ওয়াসিফা জান্নাতুল</div>
+  </div>
+
+  <footer>
+    &copy; 2025 Enlightened Volunteers Organization of Bangladesh (EVOB)
+  </footer>
+
+</body>
+</html>
