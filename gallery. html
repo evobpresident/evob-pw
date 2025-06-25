@@ -1,0 +1,25 @@
+<!-- gallery.html -->
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EVOB | গ্যালারি</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>ফটো ও ভিডিও গ্যালারি</h1>
+  <section class="gallery">
+    <img src="img1.jpg" alt="EVOB Event 1">
+    <img src="img2.jpg" alt="EVOB Event 2">
+    <iframe width="100%" height="250" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" allowfullscreen></iframe>
+  </section>
+</body>
+</html>
+
+<!-- emergency.html -->
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
